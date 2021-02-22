@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+<title>Html Forms</title>
+</head>
+
+<body>
+	<h1>Html Forms</h1>
+	<form action="/tacos">
+	<p>
+	<label for="username"> Enter a username</label>
+	<input id="username" type="text" placeholder="username" name="username">
+	</p>
+	<p>
+		<label for="password"> Enter a password</label>
+		<input type="password" placeholder="password" id="password" name="password">
+	</p>
+		<button>IN THE MIDDLE</button>
+	  <p>
+		<label for="color"> Enter a Color:</label>
+		<input type="color"	id="color" name="color">
+		</p>
+		<p>
+		
+		<label for="number"> Enter a Number</label>
+		<input type="number" placeholder="enter a number"	id="number" name="num">
+	  </p>
+		<button>Submit</button>
+		<input type="submit" value="Click Me!">
+		
+		<hr>
+		<!-- Outside of a form, no default behavior-->
+		<button> Not Inside Form</button>
+		<form action="https://www.google.com/search">
+		<input type="text" name="q">
+		<button>Search Google</button>
+			</form>
+	</form>
+</body>
+</html>
